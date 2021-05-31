@@ -1,0 +1,171 @@
+header{
+		border-radius: 15px 15px 15px 0px;
+		background-color: rgba(255,255,255,0.8);
+		padding: 20px;
+		text-align: center;
+		font-size: 35px;
+		color: white;
+	}
+	body{
+		background-image: url("imagenes/fondo.png" );
+	}
+	nav{
+		background-color: rgba(255,255,255,0.8);
+		float: left;
+		width: 19%;
+		height: 1300px;
+		padding: 20px;
+	}
+	article{
+		float: left;
+		padding: 0px;
+		width: 81%;
+		height: 1200px;
+	}
+	section:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	footer{
+		border-radius: 0px 15px 15px 15px;
+		background-color: rgba(255,255,255,0.8); 
+		padding: 10px;
+		text-align: center;
+		color: black;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: rgba(255,255,255,0.8);
+	}
+	li{
+		float: left;
+	}
+	li a{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 16px;
+		font-family: Century Gothic; 
+		font-size: 22px;
+	}
+	li a:hover{
+		color:  #f6d904;
+	}
+	h2{
+		font-family: Century Gothic; 
+		font-size: 25px;
+	}
+	p, pre{
+		font-family: Century Gothic; 
+		font-size: 20px;
+	}
+	.fondo{
+		border-radius: 15px;
+		background-color: rgba(255,255,255,0.8); 
+		color: black;
+		padding:20px;
+		font-family: Century Gothic; 
+	}
+	table, th, td{
+		text-align: center;
+		justify-content: center;
+		border: 1px solid black;
+	}
+
+	/*Formularios*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] 
+input[type="list"]  {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #f6d904;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #f6d906;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 800px;
+  }
+
+}

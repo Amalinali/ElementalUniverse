@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<link id="demo1" rel="stylesheet" type="text/css" href="estilo.css" />
+<body>
+
+<div class="fondo">
+	<h1>REGISTRARSE</h1>
+		<form method="post" autocomplete="on" id="f1">
+
+			<fieldset>
+				<legend>Datos personales</legend>
+		Nombre(s): <br>
+		<input type="text" name="nombre" size="40" maxlength="25" autofocus required>
+		Apellidos: <br>
+		<input type="text" name="AP" size="40" maxlength="25" required>
+		<br>Registrarse como: <br>
+		<input type="radio" name="usuario" value="docente" required>Docente<br>
+		<input type="radio" name="usuario" value="alumno" required>Alumno<br>
+		<input type="radio" name="usuario" value="tutor" required>Tutor<br>
+		<br>Edad: <br>
+		<input type="text" name="edad" size="40" maxlength="25" required>
+		<br>Región:
+		<select list="region" name="pais" required>
+				<option value="mexico">México</option>
+				<option value="españa">Colombia</option>
+				<option value="eu">Argentina</option>
+				<option value="eu">Otro</option>
+		</select><br>
+	    <br>Ciudad: <br>
+		<input type="text" name="ciudad" size="40" maxlength="25" >
+			</fieldset>
+
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Datos de contacto</legend>
+
+		<br>Número de teléfono: <br>
+		<input type="text" name="teléfono" min="1" max="9" required> 
+
+		<br>Correo electrónico: <br>
+		<input type="email" name="email" size="35" autocomplete="off" required> 
+
+			</fieldset>
+
+
+		<p>Comentarios:</p>
+		<textarea name="comentarios" rows="7" cols="40">Escribe aquí tus comentarios</textarea> 
+	
+		<br>Contraseña:<br>
+		<input type="Password" name="pwd" autocomplete="off" required> 
+
+		<br><input type="checkbox" id="tos" name="condiciones"> Aceptarlos Terminos y condiciones de servicio
+
+    	<br><input type="checkbox" id="news" name="news">Recibir noticias a mi correo electrónico <br>
+
+		<br>
+		<button type="submit" name="Enviar"> Enviar </button>
+		<button type="reset" name=""> Reestablecer </button>
+		
+</div>
+</body>
+</html>
